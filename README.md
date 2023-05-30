@@ -15,9 +15,17 @@ If you like them, then don't forget to give my repo a star.⭐
 ## Know about my extensions 
 | Extension  | Description |
 | --- | --- |
-| `BG Remover` | Any image may have its backdrop removed using this Chrome extension by simply putting the image's link into the input box. |
-| `Bookmarker` | A Chrome Extension which can be used to bookmark any website or tab. |
-| `Clock` | An analog clock chrome extenion. |
+| `BG Remover` | Removes background from any  image. |
+| `Bookmarker` | Bookmark any website or tab. |
+| `Clock` | An analog clock. |
+| `Extract Text from Image` | Extract text fromm any image. |
+| `Git to Visual` | Quickly open any github repo with vscode.dev or clone a repo directly to vscode.|
+| `Jokes` | Display random jokes. |
+| `Password Generator` | Create strong password of 8 characters |
+| `QR-Generator` | Generate QR for any provided link. |
+| `Sci-Calulator` | Scientific calculator |
+| `Talk to AI` | Provides summarized insights and facilitating interactive conversations about the web content. |
+| `To Do List` | Manages your daily tasks efficiently. |
 
 
 <hr>
