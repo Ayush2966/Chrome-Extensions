@@ -29,8 +29,9 @@ If you like them, then don't forget to give my repo a star.⭐
 | Word Counter | Counts number of words in any line or paragraph. |
 | Youtube Video Downloader| Download any youtube video.|
 | Screen Shot| Save Screen of the webpage |
+
+` To know more about any Extension navigate to it's folder and read it's README file. `
 <hr>
-`` To know more about any Extension navigate to it's folder and read it's README file. ``
 <p align="center">
   Made By Ayush Jain with ❤️
   </p>
