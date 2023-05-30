@@ -32,7 +32,7 @@ If you like them, then don't forget to give my repo a star.⭐
 
 ` To know more about any Extension navigate to it's folder and read it's README file. ` <br>
 
-&copy; to @Ayush2966
+
 <hr>
 <p align="center">
   Made By Ayush Jain with ❤️
