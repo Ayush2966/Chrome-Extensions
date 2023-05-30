@@ -12,6 +12,14 @@ If you like them, then don't forget to give my repo a star.⭐
 7. Select the folder where you extracted the extension files.
 8. The Extract Text from Image extension will now be installed and ready to use.
 
+## Know about my extensions 
+| Extension  | Description |
+| --- | --- |
+| `BG Remover` | Any image may have its backdrop removed using this Chrome extension by simply putting the image's link into the input box. |
+| `Bookmarker` | A Chrome Extension which can be used to bookmark any website or tab. |
+| `Clock` | An analog clock chrome extenion. |
+
+
 <hr>
 <p align="center">
   Made By Ayush Jain with ❤️
