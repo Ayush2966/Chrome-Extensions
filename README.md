@@ -19,7 +19,7 @@ If you like them, then don't forget to give my repo a star.⭐
 | Bookmarker | Bookmark any website or tab. |
 | Clock | An analog clock. |
 | Extract Text from Image | Extract text from any image. |
-| Git to Visual | Quickly opens any github repo with vscode.dev or clone a repo directly to vscode.|
+| Git to Visual | Quickly open any github repo with vscode.dev or clone a repo directly to vscode.|
 | Jokes | Display random jokes. |
 | Password Generator | Create strong password of 8 characters |
 | QR-Generator | Generate QR for any provided link. |
