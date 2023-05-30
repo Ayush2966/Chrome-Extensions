@@ -18,7 +18,7 @@ If you like them, then don't forget to give my repo a star.⭐
 | BG Remover | Removes background from any  image. |
 | Bookmarker | Bookmark any website or tab. |
 | Clock | An analog clock. |
-| Extract Text from Image | Extract text fromm any image. |
+| Extract Text from Image | Extract text from any image. |
 | Git to Visual | Quickly open any github repo with vscode.dev or clone a repo directly to vscode.|
 | Jokes | Display random jokes. |
 | Password Generator | Create strong password of 8 characters |
