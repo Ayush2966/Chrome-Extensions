@@ -1,0 +1,37 @@
+{
+    "name": "Git to Visual ",
+    "description": "Open Github repos in vscode.dev or clone them directly to vscode.",
+    "version": "1.1.2",
+    "manifest_version": 3,
+    "icons": {
+        "48": "./images/icons/ayush.png",
+        "128": "./images/icons/ayush.png"
+    },
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "commands": {
+        "clone-in-vscode": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Down",
+                "mac": "Command+Shift+Down"
+            },
+            "description": "Clone a Github repo directly to vscode"
+        },
+        "open-with-vscodedev": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Up",
+                "mac": "Command+Shift+Up"
+            },
+            "description": "Quickly open Github repos with vscode.dev"
+        }
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://github.com/*"
+    ]
+}

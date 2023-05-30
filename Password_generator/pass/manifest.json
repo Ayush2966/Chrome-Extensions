@@ -1,0 +1,16 @@
+{
+    "name": "password generator",
+    "version": "0.0.1",
+    "description": "password generator",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "password generator",
+        "default_icon": "icon.png"
+    },
+    "icons": {        
+        "64": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": ["activeTab"]
+}

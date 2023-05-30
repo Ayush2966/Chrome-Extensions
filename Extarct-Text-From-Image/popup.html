@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image to Text</title>
+  <link rel="stylesheet" href="css/popup.css" />
+</head>
+
+<body>
+  <div class="full-content">
+    <h1>Text Extractor From
+<span style="color:blue">Images</span>
+    </h1>
+    <div class="radio-buttons">
+      <label> <input type="radio" name="options" value="1" />Turbo </label>
+      <label> <input type="radio" name="options" value="2" checked />Fast </label>
+      <label>
+        <input type="radio" name="options" value="3" />Normal
+      </label>
+      <label> <input type="radio" name="options" value="5" />Accurate </label>
+    </div>
+    <br />
+    <div class="file-input">
+      <!-- <input type="file" id="file-input" /><br /> -->
+      <label for="file-input" class="custom-file-upload">
+        Choose File
+      </label>
+      <input id="file-input" class="file-input" type="file">
+
+      <button id="extract-button">Extract Text</button>
+    </div>
+    <br>   
+    <div class="response-output">
+      
+      <textarea id="response" placeholder="Extracted Text will appear here
+       " cols="60" rows="10"></textarea>
+    </div>
+  </div>
+  <script src="js/popup.js"></script>
+  <script src="js/content.js"></script>
+</body>
+
+</html>

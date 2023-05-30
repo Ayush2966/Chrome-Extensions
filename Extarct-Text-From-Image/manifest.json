@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Image to Text",
+    "version": "1.0",
+    "description": "Extracts text from images and fills it into input fields.",
+    "icons": {
+        "16": "images/icon/icon16.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "images/icon/icon16.png"
+        },
+        "default_title": "Image to Text",
+        "default_popup": "popup.html"
+    }
+}

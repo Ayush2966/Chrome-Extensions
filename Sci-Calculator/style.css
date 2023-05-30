@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto:ital,wght@0,100;1,300&family=Source+Sans+Pro:wght@200&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    background: linear-gradient(to right, #101010, #2e2e2e);
+   
+    user-select: none;
+    font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+}
+
+.calculator {
+    width: 490px;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #101010, #2e2e2e);
+    
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:focus {
+    color: #5db9e7;
+    text-decoration: none;
+}
+
+input[type=text] {
+    width: 470px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #333333;
+    color: #d9d9d9;
+    padding: 5px;
+    margin-left: 7px;
+    font-size: large;
+    outline: none;
+    padding-left: 10px;
+    box-shadow: inset 5px 5px 10px #2f2f2f,
+            inset -5px -5px 10px #414141;
+    
+}
+
+::selection {
+    color: black;
+    background-color: white;
+}
+
+.calc-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    margin-top: 10px;
+    width: 63px;
+    border: none;
+    height: 50px;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow:  3px 3px 6px #232323,
+             -3px -3px 6px #4d4d4d;
+}
+
+button:active{
+    box-shadow: inset 3px 3px 6px #1c1c1c,
+            inset -3px -3px 6px #545454;
+}
+button:hover {
+    background-color: hsla(180, 100%, 40%, 0.3);
+    transition: .2s;
+}
+
+.functions-one {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.functions-two {
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.triggers {
+    background-color: #ffc266;
+}
+
+
+
+.numbers {
+    background-color: #999999;
+}
+
+.basic-stuff {
+    background-color: #5db9e7;
+}
+
+.complex-stuff {
+    background-color: #53ebeb;
+}
+
+/* Style to set the title of calculator */
+.title {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    width: 447px;
+    color: white;
+    justify-content: left;
+}

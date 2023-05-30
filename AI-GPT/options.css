@@ -1,0 +1,59 @@
+body {
+    background: rgb(248, 249, 250);
+    font-size: 13px;
+    font-family: "Microsoft YaHei", "Helvetica", "Arial", sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 640px;
+}
+section {
+    display: block;
+}
+h1 {
+    font-size: 1.125em;
+    font-weight: normal;
+    margin: 0;
+}
+.optionsTitle {
+    margin-top: 20px;
+}
+.optionBox {
+    background: rgb(255, 209, 209);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    padding: 0.75em 1.25em;
+    margin-top: 5px;
+}
+.restoreDefaultsButton {
+    font-size: 9px !important;
+    color: grey;
+    margin-left: auto;
+}
+#languageNameInput {
+    text-align: center;
+    width: 100px;
+}
+.textInput {
+    flex: 1;
+    align-self: flex-start;
+    margin: 0 5px;
+    outline: none;
+}
+#summaryPromptInput{
+    height: calc(2.4em + 5px);
+}
+.textareaInput {
+    flex: 1;
+    align-self: flex-start;
+    margin: 0 5px;
+    padding: 0;
+    resize: none;
+    outline: none;
+    height: calc(1.2em + 5px);
+    max-height: calc(3.6em + 2 * (5px + 1px));
+    line-height: 1.2;
+    overflow-y: scroll;
+    font-size: inherit;
+    font-family: inherit;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Clock-Ayush",
+    "version": "0.0.1",
+    "description": "A clock element for your browser",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Clock",
+        "default_icon": "images.png"
+    },
+    "icons": {        
+        "64": "images.png",
+        "128": "images.png"
+    },
+    "permissions": ["activeTab"]
+}

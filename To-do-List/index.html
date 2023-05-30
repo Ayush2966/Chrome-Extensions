@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<!-- Copyright (c) 2023 Nayeem Hossain -->
+
+<body>
+
+    <div id="title">
+        <h2>To-Do List</h2>
+        <h6></h6>
+    </div>
+
+    <div id="main-container">
+
+        <!-- button to open task input form box -->
+        <button id="add-todo-btn">+</button>
+        
+        <!-- task input form box to add new task -->
+        <div id="todo-input-form">
+            
+            <div class="task-form">
+                <textarea id="task-input-high" class="task-input" rows="4" placeholder="Enter High Priority Task"></textarea>
+                <button class="add-task" id="add-task-btn-high">Add Task</button>
+            </div>
+    
+            <div class="task-form">
+                <textarea id="task-input-low" class="task-input" rows="4" placeholder="Enter Low Priority Task"></textarea>
+                <button class="add-task" id="add-task-btn-low">Add Task</button>
+            </div>
+        
+        </div>
+
+
+        <!-- to update a task -->
+        <div class="modal" id="modal">
+            
+            <div id="close-btn">
+                &times;
+            </div>
+            
+            <div class="task-form task-form-modal">
+                <textarea id="task-input-updated" class="task-input" rows="4" placeholder="Updated Task"></textarea>
+                <input type="hidden" id="hidden-index-updated">
+                <button class="add-task" id="update-task-btn">Update</button>
+            </div>
+      
+        </div>
+      
+
+
+        <!-- container to show all tasks -->
+        <div class="task-list" id="task-list">
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="handleTabKey.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-color: rgb(226, 220, 255);
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(140, 117, 255);
+}
+
+button {margin-top: 0.4rem;
+    background: rgb(135, 110, 255);
+    width:32.6%;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgb(250, 250, 252);
+}
+#input-btn:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(135, 110, 255);
+    box-shadow: 0 0 10px rgb(135, 110, 255);
+}
+#input-btn:active{
+    background:rgb(135, 110, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(43, 0, 255);
+    box-shadow:0 0 10px rgb(250, 250, 252);
+
+}
+#tab-btn:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(135, 110, 255);
+    box-shadow: 0 0 10px rgb(135, 110, 255);
+}
+#tab-btn:active{
+    background:rgb(135, 110, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(43, 0, 255);
+    box-shadow:0 0 10px rgb(250, 250, 252);
+}
+
+#delete-btn:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(135, 110, 255);
+    box-shadow: 0 0 10px rgb(135, 110, 255);
+}
+#delete-btn {
+    background: white;
+    color:rgb(135, 110, 255);
+}
+#delete-btn:active{
+    background:rgb(135, 110, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(43, 0, 255);
+    box-shadow:0 0 10px rgb(250, 250, 252);
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+
+li {
+    padding:0.5rem;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: #fff solid 2px;
+}
+
+a {
+    color: #6237ff;
+}
+
+

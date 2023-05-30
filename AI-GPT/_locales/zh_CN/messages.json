@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "SummChat-摘要到聊天ChatGPT"
+    },
+    "appDesc": {
+        "message": "通过ChatGPT总结摘要，提供互动聊天（包括翻译和继续对话）"
+    },
+    "summaryPrompt": {
+        "message": "简要总结下文摘要。"
+    },
+    "continuePrompt": {
+        "message": "请继续上次的答复"
+    }
+}

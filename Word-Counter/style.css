@@ -1,0 +1,24 @@
+h5{text-align: center;
+   
+    
+    padding-top: 20px;
+}
+
+
+.btn{
+margin-top: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p{font-size: 2rem;
+    color:rgb(0, 0, 0) !important;
+}
+div{
+    background-color: rgb(223, 255, 197);
+    width: 150vh;
+}
+textarea{
+    width:140vh;
+    height:50vh;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+html {
+  transition: all 0.5s ease-in;
+
+}
+
+html.dark {
+  --primary-color: #fff;
+  --secondary-color: #333;
+}
+
+
+
+body {
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;  
+  
+    min-width: 450px;
+    height: 300px;
+}
+#password{
+    border: none;
+    border-radius: 3rem;
+    text-align: center;
+    height: 4rempx;
+    width: 300px;
+    font-size: 2rem;
+    box-shadow: -0px -0px 0px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+}
+
+.btn{
+    position: relative;
+   margin-left: 30%;
+   color: rgb(255, 255, 255);
+    background-color: salmon;
+    box-shadow: -0px -0px 0px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(221, 214, 214);
+     box-shadow: -5px -5px 4px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+     transition: 0.5s ease;
+}
+.password-body{
+    height: 200px;
+    width: 400px;
+    padding: 4px 4px 4px 4px;
+    margin-top: 0.8rem;
+    align-items: center;
+    background-color: rgba(53, 242, 147, 0.5);
+    position:absolute;
+    font-size: 3.125rem;
+    border-radius: 2rem;
+    box-shadow: -5px -5px 8px rgb(0, 0, 0,0.599),7px 7px 8px rgba(0, 0, 0, 0.599);
+    
+}
+
+.password-body:hover{
+    box-shadow: -10px -10px 8px rgb(252, 252, 252),14px 14px 8px rgba(0, 0, 0, 0.599);
+    transition: 0.8s ease;
+}
+.container1{
+    text-align: center;
+}
+.container2
+{
+    text-align: center;
+    font-size: 0.5rem;
+}
+#time,#date{
+   /* font-size: larger; */
+   text-align: center;
+}
+
+.love{
+    padding-top: 1.2rem;
+    padding-bottom: 0px;
+    text-align: center;
+}

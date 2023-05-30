@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 240, 240);
+}
+
+/* @font-face
+{
+    font-family:'digital-password-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+} */
+.password-body{
+    height: auto;
+    width: 670px;
+    padding: 40px 40px 40px 40px;
+    margin-top: 170px;
+    margin-left: 430px;
+    position:absolute;
+    font-size: 3.125rem;
+    border-radius: 20px;
+    box-shadow: -10px -10px 8px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+    
+}
+
+.password-body:hover{
+    box-shadow: -10px -10px 8px rgb(252, 252, 252),14px 14px 8px rgba(0, 0, 0, 0.599);
+    transition: 0.8s ease;
+}
+.container1{
+    text-align: center;
+}
+.container2
+{
+    text-align: center;
+}
+#time,#date{
+   /* font-size: larger; */
+   text-align: center;
+}
+
+.love{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+#password{
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    height: 50px;
+    width: 550px;
+    font-size: 25px;
+    box-shadow: -10px -10px 8px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+}
+
+.btn{
+    position: relative;
+    margin-left: 38%;
+    box-shadow: -10px -10px 8px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(221, 214, 214);
+     box-shadow: -10px -10px 8px rgb(252, 252, 252),7px 7px 8px rgba(0, 0, 0, 0.599);
+     transition: 0.5s ease;
+}
+
+@media(max-width:250px){
+  .password-body
+   { 
+    margin-top: 150px;
+    margin-left: 0px;
+    width: 450px;
+   }
+   #password{
+    width: 400px;
+    margin-left: 0;
+ }
+}
+
+ @media(min-width:251px) and (max-width:450px){
+  .password-body
+   { 
+    margin-top: 210px;
+    margin-left: 0px;
+    width: 500px;
+    }
+   #password{
+    width: 400px;
+    margin-left: 0;
+ }
+}
+
+@media(min-width:451px) and (max-width:800px){
+  .password-body
+   { 
+    margin-top: 220px;
+    margin-left: 0px;
+    width: 600px;
+    }
+   #password{
+    width: 400px;
+    margin-left: 0;
+ }
+}
+
+@media(min-width:801px) and (max-width:1000px){
+  .password-body
+   { 
+    margin-top: 220px;
+    margin-left: 50px;
+    width: 650px;
+    }
+   #password{
+    width: 400px;
+    margin-left: 0;
+ }
+}
+
+ @media(min-width:1001px) and (max-width:1500px){
+  .password-body
+   { 
+    margin-top: 220px;
+    margin-left: 15%;
+    width: 650px;
+    }
+   #password{
+    width: 400px;
+    margin-left: 0;
+ }
+}

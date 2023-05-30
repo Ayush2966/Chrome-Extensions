@@ -1,0 +1,20 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-2.0.3.min.js", "contentscript.js" ],
+      "matches": [ "*://www.youtube.com/*", "*://ytmp3.cc/*" ]
+   } ],
+   
+   "description": "Download youtube videos as MP3",
+   "icons": {
+      "128": "icon-large.png",
+      "16": "icon-supersmall.png",
+      "48": "icon-small.png"
+   },
+   "manifest_version": 3,
+   "name": "Youtube MP3 Downloader",
+   "permissions": [ "downloads", "tabs", "tabs", "activeTab" ],
+   "version": "1.0.13"
+}

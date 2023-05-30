@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "SummChat-summary to chat by ChatGPT"
+    },
+    "appDesc": {
+        "message": "Powered by ChatGPT, offers contextual chatting on a summary, with translation and continue functions."
+    },
+    "summaryPrompt": {
+        "message": "Summarize the text below, retaining key points and important details while briefly."
+    },
+    "continuePrompt": {
+        "message": "Please continue the last response"
+    }
+}

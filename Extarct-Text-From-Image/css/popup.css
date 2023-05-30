@@ -1,0 +1,112 @@
+body {
+  background: #fff;
+  width: 80vh;
+  height: 87vh;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0px;
+ 
+}
+
+.full-content {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  background: rgba(132, 179, 255, 0.2);
+  border: 3px dashed #939393;
+  box-shadow:  5px 5px 9px #5a5a5a,
+             -5px -5px 9px #5a5a5a;
+}
+
+/* Style for file input container */
+.file-input {
+  text-align: center;
+}
+
+/* Hide the default appearance */
+input[type="file"] {
+  display: none;
+}
+
+/* Style the custom button */
+.custom-file-upload {
+  background-color: #479f4a;
+  margin-right: 1rem;
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow:  2px 2px 3px #5a5a5a,
+             -2px -2px 3px #ffffff;
+}
+
+/* Style the custom button on hover */
+.custom-file-upload:hover {
+  background-color: #3e8e41;
+  box-shadow:  2px 2px 3px #5a5a5a,
+             -2px -2px 3px #ffffff;
+}
+.custom-file-upload:active {
+  background-color: #3e8e41;
+  box-shadow: inset 2px 2px 5px #059100,
+            inset -2px -2px 5px #03833a;
+}
+
+/* Style for file input */
+#file-input {
+  margin-bottom: 1rem;
+  border: #007fff 1px solid;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: #007fff;
+  padding: 0.5em;
+  height: 45px;
+  border: thin solid grey;
+  border-radius: 0.25rem;
+}
+
+/* Style for submit button */
+#extract-button {
+  background-color: #2992fb;
+  height:2.36rem;
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow:  2px 2px 3px #5a5a5a,
+             -2px -2px 3px #ffffff;
+}
+
+/* Style for submit button on hover */
+#extract-button:hover {
+  background-color: #0578eb;
+}
+#extract-button:active {
+  background-color: #0578eb;
+  box-shadow: inset 2px 2px 5px #4da6ff,
+            inset -2px -2px 5px #004992;
+}
+
+/* Response Text  */
+#response {
+  width: 60vh;
+  margin-top: 1rem;
+  border: #000000 1px solid;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  resize: none;
+  box-shadow: inset 5px 5px 9px #a1a1a1,
+            inset -5px -5px 9px #e0e0e0;
+}
