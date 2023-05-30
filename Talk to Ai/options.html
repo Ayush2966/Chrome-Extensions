@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Options</title>
+
+    <head>
+        <link rel="stylesheet" href="options.css">
+    </head>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section>
+            <h1 class="optionsTitle">Summary Prompt</h1>
+            <div class="optionBox">
+                <div style="display: flex; align-items: center;">
+                    <textarea type="text" id="summaryPromptInput" class="textareaInput"></textarea>
+                    <button id="resetSummaryPrompt" class="restoreDefaultsButton">Reset to default</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="optionsTitle">Tool Button</h1>
+            <div class="optionBox">
+                <div style="display: flex; align-items: center;">
+                    <label>
+                        <input type="checkbox" id="translationCheckbox">Translation to
+                    </label>
+                    <input type="text" id="languageNameInput" class="textInput"
+                        placeholder="Language Name, such as English, Chinese, Spanish">
+                    <button class="restoreDefaultsButton" style="visibility: hidden;">Reset to default</button>
+                </div>
+                <hr>
+                <div style="display: flex; align-items: center;">
+                    <label>
+                        <input type="checkbox" id="continueCheckbox">Continue Prompt
+                    </label>
+                    <textarea type="text" id="continuePromptInput" class="textareaInput"></textarea>
+                    <button id="resetContinuePrompt" class="restoreDefaultsButton">Reset to default</button>
+                </div>
+        </section>
+        <section style="margin: 0 auto;text-align: center;">
+            <button id="saveButton" style="font-size: 16px;margin:20px;padding:4px 10px;">Save</button>
+        </section>
+
+    </div>
+    <script src="options.js"></script>
+</body>
+
+</html>

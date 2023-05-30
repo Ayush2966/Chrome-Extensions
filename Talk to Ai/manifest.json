@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Talk to AI",
+    "description": "AI chatbot - OpenAI's GPT-3",
+    "default_locale": "en",
+    "version": "0.0.2",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "action": {},
+    "options_page": "options.html",
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "content.css",
+                "content_main.css",
+                "images/settings.png",
+                "options.html"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "webRequest",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://chat.openai.com/"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
