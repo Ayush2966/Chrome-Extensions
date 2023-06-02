@@ -16,3 +16,5 @@ A Chrome Extension which can be used to bookmark any website.
 6. Click on the "Load unpacked" button.
 7. Select the folder where you extracted the extension files.
 8. The Extract Text from Image extension will now be installed and ready to use.
+<hr>
+<p align="center"> Made with ❤️ by Ayush Jain </p>
