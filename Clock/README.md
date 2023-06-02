@@ -1,4 +1,5 @@
-#Clock
+# Clock
+Analog clock chrome extensiom
 ## Installation
 1. Download the extension files from the Realeases section (source code) zip.
 2. Extract the downloaded files to a local folder on your computer.
