@@ -1,5 +1,5 @@
 # QR-Generator 
-Generate QR code of any provided link in the input section.
+Generates QR code of any provided link in the input section.
 ## Installation
 1. Download the extension files from the Realeases section (source code) zip.
 2. Extract the downloaded files to a local folder on your computer.
