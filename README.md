@@ -1,6 +1,6 @@
 # Chrome-Extensions
 Hello geeks, this repository contains some useful chrome extension made by me.
-If you like them, then don't forget to give my repo a star.⭐
+If you like them, then don't forget to give my repo a star⭐.
 
 ## How to install them locally?
 1. Download the extension files from the Realeases section (source code) zip.
